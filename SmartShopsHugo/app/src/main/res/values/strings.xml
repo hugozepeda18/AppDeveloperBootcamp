@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartShopHugo</string>
+    <string name="title_login">Smart Shop Hugo</string>
+    <string name="hint_username">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_login">Iniciar Sesión</string>
+</resources>

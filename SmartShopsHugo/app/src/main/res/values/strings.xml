@@ -4,4 +4,6 @@
     <string name="hint_username">Usuario</string>
     <string name="hint_password">Contraseña</string>
     <string name="text_login">Iniciar Sesión</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_smartshoper">Hello Smartshoper</string>
 </resources>

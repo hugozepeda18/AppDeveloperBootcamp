@@ -69,7 +69,7 @@ class ProductsFragment : Fragment(), OnItemClickListener {
                     val productList = response.body()
                     //rvProductsGrid.adapter = productList?.let { ProductAdapter(it, this@ProductsFragment) }
                     if (!productList.isNullOrEmpty()) {
-                        productAdapter.addProducts(productList!!)
+                        productAdapter.addProducts(productList)
                     }
                 }else{
                     Toast.makeText(context, "Error al obtener los productos", Toast.LENGTH_SHORT).show()

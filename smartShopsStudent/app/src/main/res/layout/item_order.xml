@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="7dp">
+
+    <TextView
+        android:id="@+id/tvOrderNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123123213"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvOrderDate"
+        />
+
+    <TextView
+        android:id="@+id/tvOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20/07/2024"
+        app:layout_constraintTop_toBottomOf="@+id/tvOrderNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvOrderTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$250"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvOrderPayState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pagado"
+        app:layout_constraintTop_toBottomOf="@+id/tvOrderTotal"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

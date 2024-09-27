@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698995975446",
+    "project_id": "smartshopsstudent",
+    "storage_bucket": "smartshopsstudent.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698995975446:android:ac9baa11c42fb354b89c37",
+        "android_client_info": {
+          "package_name": "school.ibaktor.smartshopsstudent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBACr9UI3QGiQz_fWo3Pxb_gbJCzef-7Bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

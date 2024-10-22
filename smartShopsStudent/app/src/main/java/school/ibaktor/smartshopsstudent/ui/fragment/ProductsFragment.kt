@@ -62,7 +62,8 @@ class ProductsFragment : Fragment(), OnItemClickListener {
     fun fetchProducts(){
         isLoadingPage = true
         val apiService = RetrofitInstance.apiService
-        apiService.getProducts(16).enqueue(object : Callback<MutableList<Product>>{
+        //apiService.getProducts(16).enqueue(object : Callback<MutableList<Product>>{
+        apiService.getJewelery().enqueue(object : Callback<MutableList<Product>>{
 
             override fun onResponse(call: Call<MutableList<Product>>, response: Response<MutableList<Product>>){
                 if (response.isSuccessful) {
